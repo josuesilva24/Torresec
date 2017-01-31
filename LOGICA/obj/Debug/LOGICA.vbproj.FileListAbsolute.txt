@@ -1,0 +1,30 @@
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\bin\Debug\LOGICA.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\bin\Debug\LOGICA.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\bin\Debug\LOGICA.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\bin\Debug\DATOS.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\bin\Debug\Entidades.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\bin\Debug\DATOS.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\bin\Debug\DATOS.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\bin\Debug\Entidades.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\bin\Debug\Entidades.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.vbprojResolveAssemblyReference.cache
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.Resources.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.vbproj.GenerateResource.Cache
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\bin\Debug\LOGICA.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\bin\Debug\LOGICA.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\bin\Debug\LOGICA.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\bin\Debug\DATOS.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\bin\Debug\Entidades.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\bin\Debug\DATOS.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\bin\Debug\DATOS.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\bin\Debug\Entidades.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\bin\Debug\Entidades.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.vbprojResolveAssemblyReference.cache
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.Resources.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.vbproj.GenerateResource.Cache
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\LOGICA\obj\Debug\LOGICA.pdb

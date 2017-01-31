@@ -1,0 +1,208 @@
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\bin\Debug\Aplicacion.exe
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\bin\Debug\Aplicacion.pdb
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\bin\Debug\Aplicacion.xml
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\obj\x86\Debug\Aplicacion.Login.resources
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\obj\x86\Debug\Aplicacion.Menu.resources
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\obj\x86\Debug\Aplicacion.Resources.resources
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\obj\x86\Debug\Aplicacion.vbproj.GenerateResource.Cache
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\obj\x86\Debug\Aplicacion.exe
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\obj\x86\Debug\Aplicacion.xml
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\obj\x86\Debug\Aplicacion.pdb
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\obj\x86\Debug\Aplicacion.Alternativa.resources
+C:\Users\Nani-Chan\AppData\Local\Temporary Projects\Aplicacion\obj\x86\Debug\Aplicacion.Anillo.resources
+C:\Users\Nani-Chan\documents\visual studio 2010\Projects\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.exe
+C:\Users\Nani-Chan\documents\visual studio 2010\Projects\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.xml
+C:\Users\Nani-Chan\documents\visual studio 2010\Projects\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.pdb
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.exe
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.xml
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.pdb
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Collo.resources
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Login.resources
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Menu.resources
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Resources.resources
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Sitio.resources
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.vbproj.GenerateResource.Cache
+F:\Aplicacion\Aplicacion\bin\Debug\Aplicacion.exe
+F:\Aplicacion\Aplicacion\bin\Debug\Aplicacion.pdb
+F:\Aplicacion\Aplicacion\bin\Debug\Aplicacion.xml
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Permisos.resources
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Energia.resources
+F:\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Form1.resources
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.exe
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.xml
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.pdb
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\bin\Debug\Aplicacion.exe
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\bin\Debug\Aplicacion.pdb
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\bin\Debug\Aplicacion.xml
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Alternativaa.resources
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Anilloo.resources
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Cambio.resources
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Collo.resources
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Energia.resources
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Login.resources
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Menu.resources
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Resources.resources
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Permisos.resources
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Sitio.resources
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.vbproj.GenerateResource.Cache
+C:\Users\nelizondo\Desktop\Nueva carpeta\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Usuario.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.exe
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.xml
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.pdb
+E:\Isaias\Aplicacion\Aplicacion\bin\Debug\Aplicacion.exe
+E:\Isaias\Aplicacion\Aplicacion\bin\Debug\Aplicacion.pdb
+E:\Isaias\Aplicacion\Aplicacion\bin\Debug\Aplicacion.xml
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Alternativaa.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Login.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Resources.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.vbproj.GenerateResource.Cache
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.AnilloA.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.CambioA.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.ColloA.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.EnergiaA.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.MenuA.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.Paises.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.PermisosA.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.SitioA.resources
+E:\Isaias\Aplicacion\Aplicacion\obj\x86\Debug\Aplicacion.UsuarioA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.exe
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\bin\Debug\Aplicacion.exe
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\bin\Debug\Aplicacion.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\bin\Debug\Aplicacion.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.Alternativaa.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AlternativaC.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AlternativaD.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AlternativaP.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AlternativaPA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AlternativaPR.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AnilloA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AnilloC.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AnilloD.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AnilloE.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AnilloP.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AnilloPA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AnilloPR.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.CambioA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.CambioC.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.CambioD.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.CambioE.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.CambioP.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.CambioPA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.CambioPr.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.ColloA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.ColloC.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.ColloD.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.ColloE.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.ColloP.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.ColloPA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.ColloPR.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.EnergiaA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.AlternativaE.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.EnergiaC.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.EnergiaD.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.EnergiaE.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.EnergiaP.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.EnergiaPA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.EnergiaPRvb.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.Login.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.MenuA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.MenuC.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.MenuD.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.MenuE.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.MenuP.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.MenuPA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.MenuPR.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.Resources.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.Paises.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.PermisosA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.PermisosC.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.PermisosD.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.PermisosE.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.PermisosP.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.PermisosPA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.PermisosPR.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.SitioA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.SitioC.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.SitioD.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.SitioE.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.SitioP.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.SitioPA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.SitioPR.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.UsuarioA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.UsuarioC.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.UsuarioD.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.UsuarioE.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.UsuarioP.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.UsuarioPA.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.UsuarioPR.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\ARGENTINA\v1\Aplicacion\obj\x86\Debug\Aplicacion.vbproj.GenerateResource.Cache
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Anilloo.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.AcercaD.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Cambio.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Collo.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Alternativa.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Energia.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Login.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Menu.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Resources.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Permisos.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Sitio.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Usuario.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.vbproj.GenerateResource.Cache
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\Aplicacion.exe.config
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\Aplicacion.exe
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\Aplicacion.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\Aplicacion.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.exe
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\Entidades.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\LOGICA.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\DATOS.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\Entidades.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\Entidades.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\LOGICA.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\LOGICA.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\DATOS.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Aplicacion\bin\Debug\DATOS.xml
+C:\Users\nelizondo\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\Aplicacion.exe.config
+C:\Users\nelizondo\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.exe
+C:\Users\nelizondo\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.xml
+C:\Users\nelizondo\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\Aplicacion.exe.config
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\Aplicacion.exe
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\Aplicacion.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\Aplicacion.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\Entidades.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\LOGICA.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\DATOS.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\Entidades.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\Entidades.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\LOGICA.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\LOGICA.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\DATOS.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\bin\Debug\DATOS.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.vbprojResolveAssemblyReference.cache
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Anilloo.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.AcercaD.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Cambio.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Collo.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Alternativa.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Energia.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Login.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Menu.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Resources.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Permisos.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Sitio.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.Usuario.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.vbproj.GenerateResource.Cache
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.exe
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.pdb
+E:\Proyectos\Respaldo\Ecuador Base de Datos_\Aplicacion\bin\Debug\Aplicacion.exe.config
+E:\Proyectos\Respaldo\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.exe
+E:\Proyectos\Respaldo\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.xml
+E:\Proyectos\Respaldo\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.pdb

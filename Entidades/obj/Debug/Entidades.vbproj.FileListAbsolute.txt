@@ -1,0 +1,16 @@
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Entidades\bin\Debug\Entidades.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Entidades\bin\Debug\Entidades.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Entidades\bin\Debug\Entidades.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Entidades\obj\Debug\Entidades.Resources.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Entidades\obj\Debug\Entidades.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Entidades\obj\Debug\Entidades.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\Entidades\obj\Debug\Entidades.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Entidades\bin\Debug\Entidades.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Entidades\bin\Debug\Entidades.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Entidades\bin\Debug\Entidades.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Entidades\obj\Debug\Entidades.Resources.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Entidades\obj\Debug\Entidades.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Entidades\obj\Debug\Entidades.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\Entidades\obj\Debug\Entidades.pdb

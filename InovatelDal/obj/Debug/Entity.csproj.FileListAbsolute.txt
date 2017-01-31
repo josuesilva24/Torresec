@@ -1,0 +1,5 @@
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\InovatelDal\bin\Debug\Entity.dll.config
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\InovatelDal\bin\Debug\Entity.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\InovatelDal\bin\Debug\Entity.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\InovatelDal\obj\Debug\Entity.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\InovatelDal\obj\Debug\Entity.pdb

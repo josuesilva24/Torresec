@@ -1,0 +1,26 @@
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.vbprojResolveAssemblyReference.cache
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.Resources.resources
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.vbproj.GenerateResource.Cache
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\bin\Debug\DATOS.dll.config
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\bin\Debug\DATOS.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\bin\Debug\DATOS.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\bin\Debug\DATOS.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\bin\Debug\Entidades.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\bin\Debug\Entidades.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\bin\Debug\Entidades.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.xml
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\bin\Debug\DATOS.dll.config
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\bin\Debug\DATOS.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\bin\Debug\DATOS.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\bin\Debug\DATOS.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\bin\Debug\Entidades.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\bin\Debug\Entidades.pdb
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\bin\Debug\Entidades.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.vbprojResolveAssemblyReference.cache
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.Resources.resources
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.vbproj.GenerateResource.Cache
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.dll
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.xml
+C:\Users\isiles\Desktop\Ecuador Base de Datos_\DATOS\obj\Debug\DATOS.pdb

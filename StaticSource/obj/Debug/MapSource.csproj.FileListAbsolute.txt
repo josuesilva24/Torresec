@@ -1,0 +1,4 @@
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\StaticSource\bin\Debug\MapSource.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\StaticSource\bin\Debug\MapSource.pdb
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\StaticSource\obj\Debug\MapSource.dll
+C:\Users\isiles\Desktop\Isaias Siles Archivos\Personal\Ecuador Base de Datos_\StaticSource\obj\Debug\MapSource.pdb

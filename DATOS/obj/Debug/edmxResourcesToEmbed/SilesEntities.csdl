@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SilesModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SilesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Alternativa" EntityType="SilesModel.Alternativa" />
+    <EntitySet Name="Anillo" EntityType="SilesModel.Anillo" />
+    <EntitySet Name="Cuidad" EntityType="SilesModel.Cuidad" />
+    <EntitySet Name="Departamento" EntityType="SilesModel.Departamento" />
+    <EntitySet Name="Energia" EntityType="SilesModel.Energia" />
+    <EntitySet Name="Moneda" EntityType="SilesModel.Moneda" />
+    <EntitySet Name="Municipio_Departamento" EntityType="SilesModel.Municipio_Departamento" />
+    <EntitySet Name="Operadora" EntityType="SilesModel.Operadora" />
+    <EntitySet Name="Pais" EntityType="SilesModel.Pais" />
+    <EntitySet Name="Paquete_Permiso" EntityType="SilesModel.Paquete_Permiso" />
+    <EntitySet Name="Permisos" EntityType="SilesModel.Permisos" />
+    <EntitySet Name="Provincia" EntityType="SilesModel.Provincia" />
+    <EntitySet Name="Region" EntityType="SilesModel.Region" />
+    <EntitySet Name="Sitio" EntityType="SilesModel.Sitio" />
+    <EntitySet Name="sysdiagrams" EntityType="SilesModel.sysdiagrams" />
+    <EntitySet Name="Tipo_Anillo" EntityType="SilesModel.Tipo_Anillo" />
+    <EntitySet Name="Tipo_Estructura" EntityType="SilesModel.Tipo_Estructura" />
+    <EntitySet Name="Tipo_Instalacion" EntityType="SilesModel.Tipo_Instalacion" />
+    <EntitySet Name="Tipo_Sitio" EntityType="SilesModel.Tipo_Sitio" />
+    <EntitySet Name="Tipo_Suministro_Electrico" EntityType="SilesModel.Tipo_Suministro_Electrico" />
+    <EntitySet Name="Usuario" EntityType="SilesModel.Usuario" />
+    <EntitySet Name="Usuario_Vista" EntityType="SilesModel.Usuario_Vista" />
+    <EntitySet Name="Vistas" EntityType="SilesModel.Vistas" />
+    <AssociationSet Name="FK_Sitio_Cuidad" Association="SilesModel.FK_Sitio_Cuidad">
+      <End Role="Cuidad" EntitySet="Cuidad" />
+      <End Role="Sitio" EntitySet="Sitio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Departamento" Association="SilesModel.FK_Usuario_Departamento">
+      <End Role="Departamento" EntitySet="Departamento" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Energia_Tipo_Suministro_Electrico" Association="SilesModel.FK_Energia_Tipo_Suministro_Electrico">
+      <End Role="Tipo_Suministro_Electrico" EntitySet="Tipo_Suministro_Electrico" />
+      <End Role="Energia" EntitySet="Energia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sitio_Operadora" Association="SilesModel.FK_Sitio_Operadora">
+      <End Role="Operadora" EntitySet="Operadora" />
+      <End Role="Sitio" EntitySet="Sitio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sitio_Provincia" Association="SilesModel.FK_Sitio_Provincia">
+      <End Role="Provincia" EntitySet="Provincia" />
+      <End Role="Sitio" EntitySet="Sitio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sitio_Tipo_Sitio" Association="SilesModel.FK_Sitio_Tipo_Sitio">
+      <End Role="Tipo_Sitio" EntitySet="Tipo_Sitio" />
+      <End Role="Sitio" EntitySet="Sitio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Vista_Usuario" Association="SilesModel.FK_Usuario_Vista_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Usuario_Vista" EntitySet="Usuario_Vista" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Vista_Vistas" Association="SilesModel.FK_Usuario_Vista_Vistas">
+      <End Role="Vistas" EntitySet="Vistas" />
+      <End Role="Usuario_Vista" EntitySet="Usuario_Vista" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Alternativa">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Alternativa1" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Calle" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Numero" Type="Int32" />
+    <Property Name="Entre_Calle_1" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Entre_Calle_2" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Alternativa_Latitud" Type="Int32" />
+    <Property Name="Alternativa_Longitud" Type="Int32" />
+    <Property Name="Id_Tipo_Instalacion" Type="Int32" Nullable="false" />
+    <Property Name="Id_Tipo_Estructura" Type="Int32" Nullable="false" />
+    <Property Name="Nivel_Apoyo_Estructura" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Altura_Estructura" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Altura_Total" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Superficie_A_Locar" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Acceso_Independiete" Type="Boolean" Nullable="false" />
+    <Property Name="Distancia_Desde_El_Acceso_Al_Predio_Hasta_Espacio_A_Locar" Type="Decimal" Nullable="false" Precision="10" Scale="0" />
+    <Property Name="Suministro_Electrico" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Distancia_Desde_Punto_Conexion_Hasta_Espacio_A_Locar" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Require_Mimetizado" Type="Boolean" Nullable="false" />
+    <Property Name="Fecha_Presentacion_Alternativa" Type="DateTime" />
+    <Property Name="Validacion_legar_Torresec" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Validacion_Legal_Torresec" Type="DateTime" />
+    <Property Name="Validacion_Tecnica_Torresec" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Validacion_Tecnica_Torresec" Type="DateTime" />
+    <Property Name="Fecha_Envio_Torresec" Type="DateTime" />
+    <Property Name="Validacion_Tecnica_Operador" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Validacion_Tecnica_Operador" Type="DateTime" />
+    <Property Name="Id_Validacion_Tecnica_Operador_Moneda" Type="Int32" Nullable="false" />
+    <Property Name="Validacion_Economica_Operador" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Validacion_Economica_Operador" Type="DateTime" />
+    <Property Name="Tip_Contrato" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Canon_Mensual" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Canon_Anual" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Tiene_DRS" Type="Boolean" />
+    <Property Name="Fecha_Limite_Opcion_Drs" Type="DateTime" />
+    <Property Name="Id_DSR_Moneda" Type="Int32" />
+    <Property Name="DRS_Monto" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Tiene_Opcion_Compra" Type="Boolean" />
+    <Property Name="Fecha_Limite_Opcion_Compra" Type="DateTime" />
+    <Property Name="Id_Opcion_Compra_Moneda" Type="Int32" />
+    <Property Name="Opcion_Compra_Monto" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Plazo_Contrato" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Pagos_Adelantados" Type="Int32" />
+    <Property Name="Fecha_Documentacion_A_Legal" Type="DateTime" />
+    <Property Name="Fecha_De_Respuesta_De_Legales" Type="DateTime" />
+    <Property Name="Fecha_Aval_Legal" Type="DateTime" />
+    <Property Name="Documentacion_Completa" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Documentacion_Faltante" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Observaciones_Legales" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Estatus_Adquisiciones" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Firma_Contrato_Por_Locador" Type="DateTime" />
+    <Property Name="Fecha_Firma_Contrato_Por_Torresec" Type="DateTime" />
+    <Property Name="Obesevaciones_Adquisicion" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="Estado_SLA" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Firma_SLA" Type="DateTime" />
+    <Property Name="Ultima_Fecha_Ofrecido" Type="DateTime" />
+    <Property Name="Ofrecido_OP_A" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Estado_Ofrecido_OP_A" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Ofrecido_OP_A" Type="DateTime" />
+    <Property Name="Ofrecido_OP_B" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Estatus_OP_B" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Ofrecido_OP_B" Type="DateTime" />
+    <Property Name="Ofrecido_OP_C" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Estado_Ofrecido_OP_C" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Ofrecido_OP_C" Type="DateTime" />
+    <Property Name="Id_Anillo" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Anillo">
+    <Key>
+      <PropertyRef Name="Codigo_Torresec" />
+    </Key>
+    <Property Name="Codigo_Torresec" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Nombre_Torresec" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Operador_Ancla" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Codigo_Operador_Ancla" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Anillo_Latitud" Type="Int32" />
+    <Property Name="Anillo_Longitud" Type="Int32" />
+    <Property Name="Nombre_Ancla" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Radio_Busqueda" Type="Int32" />
+    <Property Name="Altura_Requerida_RF" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Altura_TX_Requerida" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Id_region" Type="Int32" />
+    <Property Name="Id_Provincia" Type="Int32" />
+    <Property Name="id_Municipio_Departamento" Type="Int32" />
+    <Property Name="Localidad" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Id_Tipo_Anillo" Type="Int32" />
+    <Property Name="Nombre" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Buscador" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Asignacion_Anillo_Por_Operador" Type="DateTime" />
+    <Property Name="Fecha_Asignacion_Buscador" Type="DateTime" />
+    <Property Name="Fecha_Presentacion_Informe_Anillo_Buscador" Type="DateTime" />
+    <Property Name="Fecha_Presentacion_Informe_Anillo_Operador" Type="DateTime" />
+    <Property Name="Estado_Anillo" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Estado_Anillo" Type="DateTime" />
+    <Property Name="Hay_Normativas" Type="Boolean" Nullable="false" />
+    <Property Name="Tipo_Normativa" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Asignacion" Type="DateTime" />
+    <Property Name="Fecha_Presentacion" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="Cuidad">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Sitio" Relationship="SilesModel.FK_Sitio_Cuidad" FromRole="Cuidad" ToRole="Sitio" />
+  </EntityType>
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="Id_Departamento" />
+    </Key>
+    <Property Name="Id_Departamento" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Departamento1" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Usuario" Relationship="SilesModel.FK_Usuario_Departamento" FromRole="Departamento" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Energia">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id_Alternativa" Type="Int32" Nullable="false" />
+    <Property Name="Id_Sitio" Type="Int32" Nullable="false" />
+    <Property Name="Proveedor_Gestion_Suministro" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Pedido_Suministro_Electrico_A_Prestadora" Type="DateTime" />
+    <Property Name="Fecha_Entrega_Suministro_Electrico_A_Prestadora" Type="DateTime" />
+    <Property Name="Prestadora_Suministro_Electrico" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Id_Tipo_Suministro_Electrico" Type="Int32" />
+    <Property Name="Tarifa" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Direccion_Suministro_Electrico" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Titular_Suministro_Electrico" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Tiene_Contador_Energia_Torresec" Type="Boolean" />
+    <Property Name="Acumulado_Anterior_Torresec" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Medicion_Torresec" Type="DateTime" />
+    <Property Name="Acumulado_Ultima_Medicion_Torresec" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Ultima_Medicion_Torresec" Type="DateTime" />
+    <Property Name="Tiene_Contador_Energia_OP_ANCLA" Type="Boolean" />
+    <Property Name="Acumulado_Anterior_OP_ANCLA" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Medicion_Anterior_OP_ANCLA" Type="DateTime" />
+    <Property Name="Acumulado_Ultima_Medicion_OP_ANCLA" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Ultima_Medicion_OP_ANCLA" Type="DateTime" />
+    <Property Name="Tiene_Contador_Energia_OP2" Type="Boolean" />
+    <Property Name="Acumulado_Anterior_OP2" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Medicion_Anterior_OP2" Type="DateTime" />
+    <Property Name="Acumulado_Ultima_Medicion_OP2" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Ultima_Medicion_OP2" Type="DateTime" />
+    <Property Name="Tiene_Contador_Energia_OP3" Type="Boolean" />
+    <Property Name="Acumulado_Anterior_OP3" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Medicion_Anterior_OP3" Type="DateTime" />
+    <Property Name="Acumulado_Ultima_Medicion_OP3" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Ultima_Medicion_OP3" Type="DateTime" />
+    <NavigationProperty Name="Tipo_Suministro_Electrico" Relationship="SilesModel.FK_Energia_Tipo_Suministro_Electrico" FromRole="Energia" ToRole="Tipo_Suministro_Electrico" />
+  </EntityType>
+  <EntityType Name="Moneda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre_Moneda" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Simbolo_Moneda" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Municipio_Departamento">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="nombre_Municipio_Departamento" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Operadora">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Operadora1" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Sitio" Relationship="SilesModel.FK_Sitio_Operadora" FromRole="Operadora" ToRole="Sitio" />
+  </EntityType>
+  <EntityType Name="Pais">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Paquete_Permiso">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Permisos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Altura_Permitida_ANAC" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Cumple_ANAC" Type="Boolean" Nullable="false" />
+    <Property Name="Fecha_Validacion_ANAC" Type="DateTime" />
+    <Property Name="Numero_Ordenanza_Municipal" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Zonificacion_Alternativa" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Cumple_Uso_Suelo" Type="Boolean" />
+    <Property Name="Tipo_Estructura_Permitida" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Altura_Permitida_Total" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Cumple_Estructura" Type="Boolean" />
+    <Property Name="Cumple_Superficie" Type="Boolean" />
+    <Property Name="Cumple_Retiros" Type="Boolean" />
+    <Property Name="Validacion_Municipal_Torresec" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Fecha_Validacion_Municipal_Torresec" Type="DateTime" />
+    <Property Name="Proveedor_ANAC" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Permiso_ANAC_Inicio_Tramite" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Permiso_ANAC_Otorgado" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Permiso_Altura_ANAC" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Proveedor_Gestion_Municipal" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Factibilidad_Inicio_Tramite" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Factibilidad_Otorgada" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Permiso_Obra_Inicio_Tramite" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Permiso_Obra_Otorgado" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Habilitacion_Inicio_Tramite" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Habilitacion_Otorgado" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Estatus_Gestion_Permisos" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Id_Paquete_Permisos" Type="Int32" Nullable="false" />
+    <Property Name="Id_Sitio" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Provincia">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Sitio" Relationship="SilesModel.FK_Sitio_Provincia" FromRole="Provincia" ToRole="Sitio" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_region" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Sitio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Sito" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="OperadoraId" Type="Int32" Nullable="false" />
+    <Property Name="Id_Paquete_Permiso" Type="Int32" Nullable="false" />
+    <Property Name="Id_Alternativa" Type="Int32" Nullable="false" />
+    <Property Name="Id_Collo" Type="Int32" Nullable="false" />
+    <Property Name="Operadora_Adicional" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Provincia_Id" Type="Int32" Nullable="false" />
+    <Property Name="Cuidad_Id" Type="Int32" Nullable="false" />
+    <Property Name="Tipo_Sitio" Type="Int32" Nullable="false" />
+    <Property Name="Estructura_De_Soporte_Antenas" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Altura" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Porcentaje_Construccion" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="Proveedor_Estructura" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Proveedor_Obra_Civil" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Inicio_Obra_Real" Type="DateTime" />
+    <Property Name="Entrega_Obra_Real" Type="DateTime" />
+    <Property Name="Observaciones_De_Construccion" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Cuidad" Relationship="SilesModel.FK_Sitio_Cuidad" FromRole="Sitio" ToRole="Cuidad" />
+    <NavigationProperty Name="Operadora" Relationship="SilesModel.FK_Sitio_Operadora" FromRole="Sitio" ToRole="Operadora" />
+    <NavigationProperty Name="Provincia" Relationship="SilesModel.FK_Sitio_Provincia" FromRole="Sitio" ToRole="Provincia" />
+    <NavigationProperty Name="Tipo_Sitio1" Relationship="SilesModel.FK_Sitio_Tipo_Sitio" FromRole="Sitio" ToRole="Tipo_Sitio" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tipo_Anillo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tipo_Estructura">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tipo_Instalacion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tipo_Sitio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Sitio" Relationship="SilesModel.FK_Sitio_Tipo_Sitio" FromRole="Tipo_Sitio" ToRole="Sitio" />
+  </EntityType>
+  <EntityType Name="Tipo_Suministro_Electrico">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Energia" Relationship="SilesModel.FK_Energia_Tipo_Suministro_Electrico" FromRole="Tipo_Suministro_Electrico" ToRole="Energia" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Nombre_Usuario" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Nombre_Usuario" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Apellidos" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Contrasena" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Id_Departamento" Type="Int32" />
+    <NavigationProperty Name="Departamento" Relationship="SilesModel.FK_Usuario_Departamento" FromRole="Usuario" ToRole="Departamento" />
+    <NavigationProperty Name="Usuario_Vista" Relationship="SilesModel.FK_Usuario_Vista_Usuario" FromRole="Usuario" ToRole="Usuario_Vista" />
+  </EntityType>
+  <EntityType Name="Usuario_Vista">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Id_Vista" Type="Int32" Nullable="false" />
+    <Property Name="Nombre_Usuario" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="Lectura" Type="Boolean" Nullable="false" />
+    <Property Name="Escritura" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Usuario" Relationship="SilesModel.FK_Usuario_Vista_Usuario" FromRole="Usuario_Vista" ToRole="Usuario" />
+    <NavigationProperty Name="Vistas" Relationship="SilesModel.FK_Usuario_Vista_Vistas" FromRole="Usuario_Vista" ToRole="Vistas" />
+  </EntityType>
+  <EntityType Name="Vistas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Vista" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Usuario_Vista" Relationship="SilesModel.FK_Usuario_Vista_Vistas" FromRole="Vistas" ToRole="Usuario_Vista" />
+  </EntityType>
+  <Association Name="FK_Sitio_Cuidad">
+    <End Role="Cuidad" Type="SilesModel.Cuidad" Multiplicity="1" />
+    <End Role="Sitio" Type="SilesModel.Sitio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuidad">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Sitio">
+        <PropertyRef Name="Cuidad_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Departamento">
+    <End Role="Departamento" Type="SilesModel.Departamento" Multiplicity="0..1" />
+    <End Role="Usuario" Type="SilesModel.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamento">
+        <PropertyRef Name="Id_Departamento" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="Id_Departamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Energia_Tipo_Suministro_Electrico">
+    <End Role="Tipo_Suministro_Electrico" Type="SilesModel.Tipo_Suministro_Electrico" Multiplicity="0..1" />
+    <End Role="Energia" Type="SilesModel.Energia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Suministro_Electrico">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Energia">
+        <PropertyRef Name="Id_Tipo_Suministro_Electrico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sitio_Operadora">
+    <End Role="Operadora" Type="SilesModel.Operadora" Multiplicity="1" />
+    <End Role="Sitio" Type="SilesModel.Sitio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Operadora">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sitio">
+        <PropertyRef Name="OperadoraId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sitio_Provincia">
+    <End Role="Provincia" Type="SilesModel.Provincia" Multiplicity="1" />
+    <End Role="Sitio" Type="SilesModel.Sitio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Provincia">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sitio">
+        <PropertyRef Name="Provincia_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sitio_Tipo_Sitio">
+    <End Role="Tipo_Sitio" Type="SilesModel.Tipo_Sitio" Multiplicity="1" />
+    <End Role="Sitio" Type="SilesModel.Sitio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Sitio">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sitio">
+        <PropertyRef Name="Tipo_Sitio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Vista_Usuario">
+    <End Role="Usuario" Type="SilesModel.Usuario" Multiplicity="1" />
+    <End Role="Usuario_Vista" Type="SilesModel.Usuario_Vista" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Nombre_Usuario" />
+      </Principal>
+      <Dependent Role="Usuario_Vista">
+        <PropertyRef Name="Nombre_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Vista_Vistas">
+    <End Role="Vistas" Type="SilesModel.Vistas" Multiplicity="1" />
+    <End Role="Usuario_Vista" Type="SilesModel.Usuario_Vista" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vistas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Usuario_Vista">
+        <PropertyRef Name="Id_Vista" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

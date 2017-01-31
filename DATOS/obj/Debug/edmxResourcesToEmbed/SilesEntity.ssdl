@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SilesModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="SilesModelStoreContainer">
+    <EntitySet Name="Alternativa" EntityType="SilesModel.Store.Alternativa" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Anillo" EntityType="SilesModel.Store.Anillo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Cuidad" EntityType="SilesModel.Store.Cuidad" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Departamento" EntityType="SilesModel.Store.Departamento" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Energia" EntityType="SilesModel.Store.Energia" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Moneda" EntityType="SilesModel.Store.Moneda" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Municipio_Departamento" EntityType="SilesModel.Store.Municipio_Departamento" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Operadora" EntityType="SilesModel.Store.Operadora" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Pais" EntityType="SilesModel.Store.Pais" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Paquete_Permiso" EntityType="SilesModel.Store.Paquete_Permiso" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Permisos" EntityType="SilesModel.Store.Permisos" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Provincia" EntityType="SilesModel.Store.Provincia" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Region" EntityType="SilesModel.Store.Region" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Sitio" EntityType="SilesModel.Store.Sitio" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="SilesModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tipo_Anillo" EntityType="SilesModel.Store.Tipo_Anillo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tipo_Estructura" EntityType="SilesModel.Store.Tipo_Estructura" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tipo_Instalacion" EntityType="SilesModel.Store.Tipo_Instalacion" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tipo_Sitio" EntityType="SilesModel.Store.Tipo_Sitio" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Tipo_Suministro_Electrico" EntityType="SilesModel.Store.Tipo_Suministro_Electrico" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Usuario" EntityType="SilesModel.Store.Usuario" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Usuario_Vista" EntityType="SilesModel.Store.Usuario_Vista" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Vistas" EntityType="SilesModel.Store.Vistas" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Energia_Tipo_Suministro_Electrico" Association="SilesModel.Store.FK_Energia_Tipo_Suministro_Electrico">
+      <End Role="Tipo_Suministro_Electrico" EntitySet="Tipo_Suministro_Electrico" />
+      <End Role="Energia" EntitySet="Energia" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sitio_Cuidad" Association="SilesModel.Store.FK_Sitio_Cuidad">
+      <End Role="Cuidad" EntitySet="Cuidad" />
+      <End Role="Sitio" EntitySet="Sitio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sitio_Operadora" Association="SilesModel.Store.FK_Sitio_Operadora">
+      <End Role="Operadora" EntitySet="Operadora" />
+      <End Role="Sitio" EntitySet="Sitio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sitio_Provincia" Association="SilesModel.Store.FK_Sitio_Provincia">
+      <End Role="Provincia" EntitySet="Provincia" />
+      <End Role="Sitio" EntitySet="Sitio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sitio_Tipo_Sitio" Association="SilesModel.Store.FK_Sitio_Tipo_Sitio">
+      <End Role="Tipo_Sitio" EntitySet="Tipo_Sitio" />
+      <End Role="Sitio" EntitySet="Sitio" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Departamento" Association="SilesModel.Store.FK_Usuario_Departamento">
+      <End Role="Departamento" EntitySet="Departamento" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Vista_Usuario" Association="SilesModel.Store.FK_Usuario_Vista_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Usuario_Vista" EntitySet="Usuario_Vista" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Vista_Vistas" Association="SilesModel.Store.FK_Usuario_Vista_Vistas">
+      <End Role="Vistas" EntitySet="Vistas" />
+      <End Role="Usuario_Vista" EntitySet="Usuario_Vista" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Alternativa">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Alternativa" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Calle" Type="varchar" MaxLength="250" />
+    <Property Name="Numero" Type="int" />
+    <Property Name="Entre_Calle_1" Type="varchar" MaxLength="250" />
+    <Property Name="Entre_Calle_2" Type="varchar" MaxLength="250" />
+    <Property Name="Alternativa_Latitud" Type="int" />
+    <Property Name="Alternativa_Longitud" Type="int" />
+    <Property Name="Id_Tipo_Instalacion" Type="int" Nullable="false" />
+    <Property Name="Id_Tipo_Estructura" Type="int" Nullable="false" />
+    <Property Name="Nivel_Apoyo_Estructura" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Altura_Estructura" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Altura_Total" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Superficie_A_Locar" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Acceso_Independiete" Type="bit" Nullable="false" />
+    <Property Name="Distancia_Desde_El_Acceso_Al_Predio_Hasta_Espacio_A_Locar" Type="decimal" Nullable="false" Precision="10" />
+    <Property Name="Suministro_Electrico" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Distancia_Desde_Punto_Conexion_Hasta_Espacio_A_Locar" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Require_Mimetizado" Type="bit" Nullable="false" />
+    <Property Name="Fecha_Presentacion_Alternativa" Type="datetime" />
+    <Property Name="Validacion_legar_Torresec" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Validacion_Legal_Torresec" Type="datetime" />
+    <Property Name="Validacion_Tecnica_Torresec" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Validacion_Tecnica_Torresec" Type="datetime" />
+    <Property Name="Fecha_Envio_Torresec" Type="datetime" />
+    <Property Name="Validacion_Tecnica_Operador" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Validacion_Tecnica_Operador" Type="datetime" />
+    <Property Name="Id_Validacion_Tecnica_Operador_Moneda" Type="int" Nullable="false" />
+    <Property Name="Validacion_Economica_Operador" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Validacion_Economica_Operador" Type="datetime" />
+    <Property Name="Tip_Contrato" Type="varchar" MaxLength="250" />
+    <Property Name="Canon_Mensual" Type="varchar" MaxLength="250" />
+    <Property Name="Canon_Anual" Type="varchar" MaxLength="250" />
+    <Property Name="Tiene_DRS" Type="bit" />
+    <Property Name="Fecha_Limite_Opcion_Drs" Type="datetime" />
+    <Property Name="Id_DSR_Moneda" Type="int" />
+    <Property Name="DRS_Monto" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Tiene_Opcion_Compra" Type="bit" />
+    <Property Name="Fecha_Limite_Opcion_Compra" Type="datetime" />
+    <Property Name="Id_Opcion_Compra_Moneda" Type="int" />
+    <Property Name="Opcion_Compra_Monto" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Plazo_Contrato" Type="varchar" MaxLength="250" />
+    <Property Name="Pagos_Adelantados" Type="int" />
+    <Property Name="Fecha_Documentacion_A_Legal" Type="datetime" />
+    <Property Name="Fecha_De_Respuesta_De_Legales" Type="datetime" />
+    <Property Name="Fecha_Aval_Legal" Type="datetime" />
+    <Property Name="Documentacion_Completa" Type="varchar" MaxLength="250" />
+    <Property Name="Documentacion_Faltante" Type="varchar" MaxLength="250" />
+    <Property Name="Observaciones_Legales" Type="varchar(max)" />
+    <Property Name="Estatus_Adquisiciones" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Firma_Contrato_Por_Locador" Type="datetime" />
+    <Property Name="Fecha_Firma_Contrato_Por_Torresec" Type="datetime" />
+    <Property Name="Obesevaciones_Adquisicion" Type="varchar(max)" />
+    <Property Name="Estado_SLA" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Firma_SLA" Type="datetime" />
+    <Property Name="Ultima_Fecha_Ofrecido" Type="datetime" />
+    <Property Name="Ofrecido_OP_A" Type="varchar" MaxLength="250" />
+    <Property Name="Estado_Ofrecido_OP_A" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Ofrecido_OP_A" Type="datetime" />
+    <Property Name="Ofrecido_OP_B" Type="varchar" MaxLength="250" />
+    <Property Name="Estatus_OP_B" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Ofrecido_OP_B" Type="datetime" />
+    <Property Name="Ofrecido_OP_C" Type="varchar" MaxLength="250" />
+    <Property Name="Estado_Ofrecido_OP_C" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Ofrecido_OP_C" Type="datetime" />
+    <Property Name="Id_Anillo" Type="int" />
+  </EntityType>
+  <EntityType Name="Anillo">
+    <Key>
+      <PropertyRef Name="Codigo_Torresec" />
+    </Key>
+    <Property Name="Codigo_Torresec" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Nombre_Torresec" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Operador_Ancla" Type="varchar" MaxLength="250" />
+    <Property Name="Codigo_Operador_Ancla" Type="varchar" MaxLength="250" />
+    <Property Name="Anillo_Latitud" Type="int" />
+    <Property Name="Anillo_Logitud" Type="int" />
+    <Property Name="Radio_Busqueda" Type="int" />
+    <Property Name="Altura_Requerida_RF" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Altura_TX_Requerida" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Id_region" Type="int" />
+    <Property Name="Id_Provincia" Type="int" />
+    <Property Name="id_Municipio_Departamento" Type="int" />
+    <Property Name="Localidad" Type="varchar" MaxLength="250" />
+    <Property Name="Id_Tipo_Anillo" Type="int" />
+    <Property Name="Nombre" Type="varchar" MaxLength="250" />
+    <Property Name="Buscador" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Asignacion_Anillo_Por_Operador" Type="datetime" />
+    <Property Name="Fecha_Asignacion_Buscador" Type="datetime" />
+    <Property Name="Fecha_Presentacion_Informe_Anillo_Buscador" Type="datetime" />
+    <Property Name="Fecha_Presentacion_Informe_Anillo_Operador" Type="datetime" />
+    <Property Name="Estado_Anillo" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Estado_Anillo" Type="datetime" />
+    <Property Name="Hay_Normativas" Type="bit" Nullable="false" />
+    <Property Name="Tipo_Normativa" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Asignacion" Type="datetime" />
+    <Property Name="Fecha Presentacion" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Cuidad">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Departamento">
+    <Key>
+      <PropertyRef Name="Id_Departamento" />
+    </Key>
+    <Property Name="Id_Departamento" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Departamento" Type="varchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Energia">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Id_Alternativa" Type="int" Nullable="false" />
+    <Property Name="Id_Sitio" Type="int" Nullable="false" />
+    <Property Name="Proveedor_Gestion_Suministro" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Pedido_Suministro_Electrico_A_Prestadora" Type="datetime" />
+    <Property Name="Fecha_Entrega_Suministro_Electrico_A_Prestadora" Type="datetime" />
+    <Property Name="Prestadora_Suministro_Electrico" Type="varchar" MaxLength="250" />
+    <Property Name="Id_Tipo_Suministro_Electrico" Type="int" />
+    <Property Name="Tarifa" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Direccion_Suministro_Electrico" Type="varchar" MaxLength="250" />
+    <Property Name="Titular_Suministro_Electrico" Type="varchar" MaxLength="250" />
+    <Property Name="Tiene_Contador_Energia_Torresec" Type="bit" />
+    <Property Name="Acumulado_Anterior_Torresec" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Medicion_Torresec" Type="datetime" />
+    <Property Name="Acumulado_Ultima_Medicion_Torresec" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Ultima_Medicion_Torresec" Type="datetime" />
+    <Property Name="Tiene_Contador_Energia_OP_ANCLA" Type="bit" />
+    <Property Name="Acumulado_Anterior_OP_ANCLA" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Medicion_Anterior_OP_ANCLA" Type="datetime" />
+    <Property Name="Acumulado_Ultima_Medicion_OP_ANCLA" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Ultima_Medicion_OP_ANCLA" Type="datetime" />
+    <Property Name="Tiene_Contador_Energia_OP2" Type="bit" />
+    <Property Name="Acumulado_Anterior_OP2" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Medicion_Anterior_OP2" Type="datetime" />
+    <Property Name="Acumulado_Ultima_Medicion_OP2" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Ultima_Medicion_OP2" Type="datetime" />
+    <Property Name="Tiene_Contador_Energia_OP3" Type="bit" />
+    <Property Name="Acumulado_Anterior_OP3" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Medicion_Anterior_OP3" Type="datetime" />
+    <Property Name="Acumulado_Ultima_Medicion_OP3" Type="varchar" MaxLength="250" />
+    <Property Name="Fecha_Ultima_Medicion_OP3" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Moneda">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre_Moneda" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Simbolo_Moneda" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Municipio_Departamento">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="nombre_Municipio_Departamento" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Operadora">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Operadora" Type="varchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Pais">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Paquete_Permiso">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Permisos">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Altura_Permitida_ANAC" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Cumple_ANAC" Type="bit" Nullable="false" />
+    <Property Name="Fecha_Validacion_ANAC" Type="datetime" />
+    <Property Name="Numero_Ordenanza_Municipal" Type="varchar" MaxLength="50" />
+    <Property Name="Zonificacion_Alternativa" Type="varchar" MaxLength="250" />
+    <Property Name="Cumple_Uso_Suelo" Type="bit" />
+    <Property Name="Tipo_Estructura_Permitida" Type="varchar" MaxLength="250" />
+    <Property Name="Altura_Permitida_Total" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Cumple_Estructura" Type="bit" />
+    <Property Name="Cumple_Superficie" Type="bit" />
+    <Property Name="Cumple_Retiros" Type="bit" />
+    <Property Name="Validacion_Municipal_Torresec" Type="varchar" MaxLength="50" />
+    <Property Name="Fecha_Validacion_Municipal_Torresec" Type="datetime" />
+    <Property Name="Proveedor_ANAC" Type="varchar" MaxLength="250" />
+    <Property Name="Permiso_ANAC_Inicio_Tramite" Type="varchar" MaxLength="250" />
+    <Property Name="Permiso_ANAC_Otorgado" Type="varchar" MaxLength="250" />
+    <Property Name="Permiso_Altura_ANAC" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Proveedor_Gestion_Municipal" Type="varchar" MaxLength="250" />
+    <Property Name="Factibilidad_Inicio_Tramite" Type="varchar" MaxLength="250" />
+    <Property Name="Factibilidad_Otorgada" Type="varchar" MaxLength="250" />
+    <Property Name="Permiso_Obra_Inicio_Tramite" Type="varchar" MaxLength="250" />
+    <Property Name="Permiso_Obra_Otorgado" Type="varchar" MaxLength="250" />
+    <Property Name="Habilitacion_Inicio_Tramite" Type="varchar" MaxLength="250" />
+    <Property Name="Habilitacion_Otorgado" Type="varchar" MaxLength="250" />
+    <Property Name="Estatus_Gestion_Permisos" Type="varchar" MaxLength="250" />
+    <Property Name="Id_Paquete_Permisos" Type="int" Nullable="false" />
+    <Property Name="Id_Sitio" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Provincia">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nombre_region" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Sitio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Sito" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="OperadoraId" Type="int" Nullable="false" />
+    <Property Name="Id_Paquete_Permiso" Type="int" Nullable="false" />
+    <Property Name="Id_Alternativa" Type="int" Nullable="false" />
+    <Property Name="Id_Collo" Type="int" Nullable="false" />
+    <Property Name="Operadora_Adicional" Type="varchar" MaxLength="250" />
+    <Property Name="Provincia_Id" Type="int" Nullable="false" />
+    <Property Name="Cuidad_Id" Type="int" Nullable="false" />
+    <Property Name="Tipo_Sitio" Type="int" Nullable="false" />
+    <Property Name="Estructura_De_Soporte_Antenas" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Altura" Type="decimal" Nullable="false" Precision="10" Scale="2" />
+    <Property Name="Porcentaje_Construccion" Type="decimal" Precision="10" Scale="2" />
+    <Property Name="Proveedor_Estructura" Type="varchar" MaxLength="250" />
+    <Property Name="Proveedor_Obra_Civil" Type="varchar" MaxLength="250" />
+    <Property Name="Inicio_Obra_Real" Type="datetime" />
+    <Property Name="Entrega_Obra_Real" Type="datetime" />
+    <Property Name="Observaciones_De_Construccion" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Tipo_Anillo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="varchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Tipo_Estructura">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="varchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Tipo_Instalacion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="varchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Tipo_Sitio">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="varchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Tipo_Suministro_Electrico">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="varchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Nombre_Usuario" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Nombre_Usuario" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Apellidos" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Contrasena" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Id_Departamento" Type="int" />
+  </EntityType>
+  <EntityType Name="Usuario_Vista">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Id_Vista" Type="int" Nullable="false" />
+    <Property Name="Nombre_Usuario" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="Lectura" Type="bit" Nullable="false" />
+    <Property Name="Escritura" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vistas">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Vista" Type="varchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <Association Name="FK_Energia_Tipo_Suministro_Electrico">
+    <End Role="Tipo_Suministro_Electrico" Type="SilesModel.Store.Tipo_Suministro_Electrico" Multiplicity="0..1" />
+    <End Role="Energia" Type="SilesModel.Store.Energia" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Suministro_Electrico">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Energia">
+        <PropertyRef Name="Id_Tipo_Suministro_Electrico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sitio_Cuidad">
+    <End Role="Cuidad" Type="SilesModel.Store.Cuidad" Multiplicity="1" />
+    <End Role="Sitio" Type="SilesModel.Store.Sitio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cuidad">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Sitio">
+        <PropertyRef Name="Cuidad_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sitio_Operadora">
+    <End Role="Operadora" Type="SilesModel.Store.Operadora" Multiplicity="1" />
+    <End Role="Sitio" Type="SilesModel.Store.Sitio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Operadora">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sitio">
+        <PropertyRef Name="OperadoraId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sitio_Provincia">
+    <End Role="Provincia" Type="SilesModel.Store.Provincia" Multiplicity="1" />
+    <End Role="Sitio" Type="SilesModel.Store.Sitio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Provincia">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sitio">
+        <PropertyRef Name="Provincia_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sitio_Tipo_Sitio">
+    <End Role="Tipo_Sitio" Type="SilesModel.Store.Tipo_Sitio" Multiplicity="1" />
+    <End Role="Sitio" Type="SilesModel.Store.Sitio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Sitio">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Sitio">
+        <PropertyRef Name="Tipo_Sitio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Departamento">
+    <End Role="Departamento" Type="SilesModel.Store.Departamento" Multiplicity="0..1" />
+    <End Role="Usuario" Type="SilesModel.Store.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Departamento">
+        <PropertyRef Name="Id_Departamento" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="Id_Departamento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Vista_Usuario">
+    <End Role="Usuario" Type="SilesModel.Store.Usuario" Multiplicity="1" />
+    <End Role="Usuario_Vista" Type="SilesModel.Store.Usuario_Vista" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Nombre_Usuario" />
+      </Principal>
+      <Dependent Role="Usuario_Vista">
+        <PropertyRef Name="Nombre_Usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Vista_Vistas">
+    <End Role="Vistas" Type="SilesModel.Store.Vistas" Multiplicity="1" />
+    <End Role="Usuario_Vista" Type="SilesModel.Store.Usuario_Vista" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vistas">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Usuario_Vista">
+        <PropertyRef Name="Id_Vista" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

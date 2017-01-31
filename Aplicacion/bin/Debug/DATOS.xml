@@ -1,0 +1,1445 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DATOS
+</name>
+</assembly>
+<members>
+<member name="P:DATOS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DATOS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:DATOS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:DATOS.SilesEntities.#ctor">
+	<summary>
+ Inicializa un nuevo objeto SilesEntities usando la cadena de conexión encontrada en la sección 'SilesEntities' del archivo de configuración de la aplicación.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.#ctor(System.String)">
+	<summary>
+ Inicializar un nuevo objeto SilesEntities.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Inicializar un nuevo objeto SilesEntities.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Alternativa">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Anillo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Cuidad">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Departamento">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Energia">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Moneda">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Municipio_Departamento">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Operadora">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Pais">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Paquete_Permiso">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Permisos">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Provincia">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Region">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Sitio">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.sysdiagrams">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Tipo_Anillo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Tipo_Estructura">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Tipo_Instalacion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Tipo_Sitio">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Tipo_Suministro_Electrico">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Usuario">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Usuario_Vista">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.SilesEntities.Vistas">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToAlternativa(DATOS.Alternativa)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Alternativa. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToAnillo(DATOS.Anillo)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Anillo. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToCuidad(DATOS.Cuidad)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Cuidad. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToDepartamento(DATOS.Departamento)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Departamento. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToEnergia(DATOS.Energia)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Energia. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToMoneda(DATOS.Moneda)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Moneda. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToMunicipio_Departamento(DATOS.Municipio_Departamento)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Municipio_Departamento. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToOperadora(DATOS.Operadora)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Operadora. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToPais(DATOS.Pais)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Pais. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToPaquete_Permiso(DATOS.Paquete_Permiso)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Paquete_Permiso. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToPermisos(DATOS.Permisos)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Permisos. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToProvincia(DATOS.Provincia)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Provincia. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToRegion(DATOS.Region)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Region. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToSitio(DATOS.Sitio)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Sitio. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddTosysdiagrams(DATOS.sysdiagrams)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet sysdiagrams. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToTipo_Anillo(DATOS.Tipo_Anillo)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Tipo_Anillo. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToTipo_Estructura(DATOS.Tipo_Estructura)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Tipo_Estructura. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToTipo_Instalacion(DATOS.Tipo_Instalacion)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Tipo_Instalacion. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToTipo_Sitio(DATOS.Tipo_Sitio)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Tipo_Sitio. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToTipo_Suministro_Electrico(DATOS.Tipo_Suministro_Electrico)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Tipo_Suministro_Electrico. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToUsuario(DATOS.Usuario)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Usuario. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToUsuario_Vista(DATOS.Usuario_Vista)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Usuario_Vista. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="M:DATOS.SilesEntities.AddToVistas(DATOS.Vistas)">
+	<summary>
+ Método desusado para agregar un nuevo objeto al EntitySet Vistas. Considere la posibilidad de usar el método .Add de la propiedad ObjectSet(Of T) asociada.
+ </summary>
+</member><member name="T:DATOS.SilesEntities">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Alternativa.CreateAlternativa(System.Int32,System.String,System.Int32,System.Int32,System.Decimal,System.Decimal,System.Decimal,System.Decimal,System.Boolean,System.Decimal,System.String,System.Decimal,System.Boolean,System.Int32)">
+	<summary>
+ Crear un nuevo objeto Alternativa.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="alternativa1">Valor inicial de la propiedad Alternativa1.</param>
+	<param name="id_Tipo_Instalacion">Valor inicial de la propiedad Id_Tipo_Instalacion.</param>
+	<param name="id_Tipo_Estructura">Valor inicial de la propiedad Id_Tipo_Estructura.</param>
+	<param name="nivel_Apoyo_Estructura">Valor inicial de la propiedad Nivel_Apoyo_Estructura.</param>
+	<param name="altura_Estructura">Valor inicial de la propiedad Altura_Estructura.</param>
+	<param name="altura_Total">Valor inicial de la propiedad Altura_Total.</param>
+	<param name="superficie_A_Locar">Valor inicial de la propiedad Superficie_A_Locar.</param>
+	<param name="acceso_Independiete">Valor inicial de la propiedad Acceso_Independiete.</param>
+	<param name="distancia_Desde_El_Acceso_Al_Predio_Hasta_Espacio_A_Locar">Valor inicial de la propiedad Distancia_Desde_El_Acceso_Al_Predio_Hasta_Espacio_A_Locar.</param>
+	<param name="suministro_Electrico">Valor inicial de la propiedad Suministro_Electrico.</param>
+	<param name="distancia_Desde_Punto_Conexion_Hasta_Espacio_A_Locar">Valor inicial de la propiedad Distancia_Desde_Punto_Conexion_Hasta_Espacio_A_Locar.</param>
+	<param name="require_Mimetizado">Valor inicial de la propiedad Require_Mimetizado.</param>
+	<param name="id_Validacion_Tecnica_Operador_Moneda">Valor inicial de la propiedad Id_Validacion_Tecnica_Operador_Moneda.</param>
+</member><member name="P:DATOS.Alternativa.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Alternativa1">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Calle">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Numero">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Entre_Calle_1">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Entre_Calle_2">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Alternativa_Latitud">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Alternativa_Longitud">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Id_Tipo_Instalacion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Id_Tipo_Estructura">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Nivel_Apoyo_Estructura">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Altura_Estructura">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Altura_Total">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Superficie_A_Locar">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Acceso_Independiete">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Distancia_Desde_El_Acceso_Al_Predio_Hasta_Espacio_A_Locar">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Suministro_Electrico">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Distancia_Desde_Punto_Conexion_Hasta_Espacio_A_Locar">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Require_Mimetizado">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Presentacion_Alternativa">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Validacion_legar_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Validacion_Legal_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Validacion_Tecnica_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Validacion_Tecnica_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Envio_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Validacion_Tecnica_Operador">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Validacion_Tecnica_Operador">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Id_Validacion_Tecnica_Operador_Moneda">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Validacion_Economica_Operador">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Validacion_Economica_Operador">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Tip_Contrato">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Canon_Mensual">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Canon_Anual">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Tiene_DRS">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Limite_Opcion_Drs">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Id_DSR_Moneda">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.DRS_Monto">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Tiene_Opcion_Compra">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Limite_Opcion_Compra">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Id_Opcion_Compra_Moneda">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Opcion_Compra_Monto">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Plazo_Contrato">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Pagos_Adelantados">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Documentacion_A_Legal">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_De_Respuesta_De_Legales">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Aval_Legal">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Documentacion_Completa">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Documentacion_Faltante">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Observaciones_Legales">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Estatus_Adquisiciones">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Firma_Contrato_Por_Locador">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Firma_Contrato_Por_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Obesevaciones_Adquisicion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Estado_SLA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Firma_SLA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Ultima_Fecha_Ofrecido">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Ofrecido_OP_A">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Estado_Ofrecido_OP_A">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Ofrecido_OP_A">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Ofrecido_OP_B">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Estatus_OP_B">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Ofrecido_OP_B">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Ofrecido_OP_C">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Estado_Ofrecido_OP_C">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Fecha_Ofrecido_OP_C">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Alternativa.Id_Anillo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Alternativa">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Anillo.CreateAnillo(System.String,System.String,System.Boolean)">
+	<summary>
+ Crear un nuevo objeto Anillo.
+ </summary>
+	<param name="codigo_Torresec">Valor inicial de la propiedad Codigo_Torresec.</param>
+	<param name="nombre_Torresec">Valor inicial de la propiedad Nombre_Torresec.</param>
+	<param name="hay_Normativas">Valor inicial de la propiedad Hay_Normativas.</param>
+</member><member name="P:DATOS.Anillo.Codigo_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Nombre_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Operador_Ancla">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Codigo_Operador_Ancla">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Anillo_Latitud">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Anillo_Longitud">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Nombre_Ancla">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Radio_Busqueda">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Altura_Requerida_RF">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Altura_TX_Requerida">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Id_region">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Id_Provincia">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.id_Municipio_Departamento">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Localidad">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Id_Tipo_Anillo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Nombre">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Buscador">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Fecha_Asignacion_Anillo_Por_Operador">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Fecha_Asignacion_Buscador">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Fecha_Presentacion_Informe_Anillo_Buscador">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Fecha_Presentacion_Informe_Anillo_Operador">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Estado_Anillo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Fecha_Estado_Anillo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Hay_Normativas">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Tipo_Normativa">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Fecha_Asignacion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Anillo.Fecha_Presentacion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Anillo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Cuidad.CreateCuidad(System.Int32,System.String)">
+	<summary>
+ Crear un nuevo objeto Cuidad.
+ </summary>
+	<param name="id">Valor inicial de la propiedad id.</param>
+	<param name="nombre">Valor inicial de la propiedad Nombre.</param>
+</member><member name="P:DATOS.Cuidad.id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Cuidad.Nombre">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Cuidad.Sitio">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Cuidad">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Departamento.CreateDepartamento(System.Int32,System.String)">
+	<summary>
+ Crear un nuevo objeto Departamento.
+ </summary>
+	<param name="id_Departamento">Valor inicial de la propiedad Id_Departamento.</param>
+	<param name="departamento1">Valor inicial de la propiedad Departamento1.</param>
+</member><member name="P:DATOS.Departamento.Id_Departamento">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Departamento.Departamento1">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Departamento.Usuario">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Departamento">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Energia.CreateEnergia(System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Crear un nuevo objeto Energia.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="id_Alternativa">Valor inicial de la propiedad Id_Alternativa.</param>
+	<param name="id_Sitio">Valor inicial de la propiedad Id_Sitio.</param>
+</member><member name="P:DATOS.Energia.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Id_Alternativa">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Id_Sitio">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Proveedor_Gestion_Suministro">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Fecha_Pedido_Suministro_Electrico_A_Prestadora">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Fecha_Entrega_Suministro_Electrico_A_Prestadora">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Prestadora_Suministro_Electrico">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Id_Tipo_Suministro_Electrico">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Tarifa">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Direccion_Suministro_Electrico">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Titular_Suministro_Electrico">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Tiene_Contador_Energia_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Acumulado_Anterior_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Fecha_Medicion_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Acumulado_Ultima_Medicion_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Fecha_Ultima_Medicion_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Tiene_Contador_Energia_OP_ANCLA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Acumulado_Anterior_OP_ANCLA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Fecha_Medicion_Anterior_OP_ANCLA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Acumulado_Ultima_Medicion_OP_ANCLA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Fecha_Ultima_Medicion_OP_ANCLA">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Tiene_Contador_Energia_OP2">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Acumulado_Anterior_OP2">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Fecha_Medicion_Anterior_OP2">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Acumulado_Ultima_Medicion_OP2">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Fecha_Ultima_Medicion_OP2">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Tiene_Contador_Energia_OP3">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Acumulado_Anterior_OP3">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Fecha_Medicion_Anterior_OP3">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Acumulado_Ultima_Medicion_OP3">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Fecha_Ultima_Medicion_OP3">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Tipo_Suministro_Electrico">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Energia.Tipo_Suministro_ElectricoReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Energia">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Moneda.CreateMoneda(System.Int32,System.String,System.String)">
+	<summary>
+ Crear un nuevo objeto Moneda.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="nombre_Moneda">Valor inicial de la propiedad Nombre_Moneda.</param>
+	<param name="simbolo_Moneda">Valor inicial de la propiedad Simbolo_Moneda.</param>
+</member><member name="P:DATOS.Moneda.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Moneda.Nombre_Moneda">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Moneda.Simbolo_Moneda">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Moneda">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Municipio_Departamento.CreateMunicipio_Departamento(System.Int32)">
+	<summary>
+ Crear un nuevo objeto Municipio_Departamento.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+</member><member name="P:DATOS.Municipio_Departamento.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Municipio_Departamento.nombre_Municipio_Departamento">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Municipio_Departamento">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Operadora.CreateOperadora(System.Int32,System.String)">
+	<summary>
+ Crear un nuevo objeto Operadora.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="operadora1">Valor inicial de la propiedad Operadora1.</param>
+</member><member name="P:DATOS.Operadora.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Operadora.Operadora1">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Operadora.Sitio">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Operadora">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Pais.CreatePais(System.Int32,System.String)">
+	<summary>
+ Crear un nuevo objeto Pais.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="nombre">Valor inicial de la propiedad Nombre.</param>
+</member><member name="P:DATOS.Pais.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Pais.Nombre">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Pais">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Paquete_Permiso.CreatePaquete_Permiso(System.Int32)">
+	<summary>
+ Crear un nuevo objeto Paquete_Permiso.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+</member><member name="P:DATOS.Paquete_Permiso.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Paquete_Permiso">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Permisos.CreatePermisos(System.Int32,System.Decimal,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Crear un nuevo objeto Permisos.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="altura_Permitida_ANAC">Valor inicial de la propiedad Altura_Permitida_ANAC.</param>
+	<param name="cumple_ANAC">Valor inicial de la propiedad Cumple_ANAC.</param>
+	<param name="id_Paquete_Permisos">Valor inicial de la propiedad Id_Paquete_Permisos.</param>
+	<param name="id_Sitio">Valor inicial de la propiedad Id_Sitio.</param>
+</member><member name="P:DATOS.Permisos.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Altura_Permitida_ANAC">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Cumple_ANAC">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Fecha_Validacion_ANAC">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Numero_Ordenanza_Municipal">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Zonificacion_Alternativa">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Cumple_Uso_Suelo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Tipo_Estructura_Permitida">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Altura_Permitida_Total">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Cumple_Estructura">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Cumple_Superficie">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Cumple_Retiros">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Validacion_Municipal_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Fecha_Validacion_Municipal_Torresec">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Proveedor_ANAC">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Permiso_ANAC_Inicio_Tramite">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Permiso_ANAC_Otorgado">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Permiso_Altura_ANAC">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Proveedor_Gestion_Municipal">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Factibilidad_Inicio_Tramite">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Factibilidad_Otorgada">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Permiso_Obra_Inicio_Tramite">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Permiso_Obra_Otorgado">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Habilitacion_Inicio_Tramite">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Habilitacion_Otorgado">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Estatus_Gestion_Permisos">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Id_Paquete_Permisos">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Permisos.Id_Sitio">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Permisos">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Provincia.CreateProvincia(System.Int32,System.String)">
+	<summary>
+ Crear un nuevo objeto Provincia.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="nombre">Valor inicial de la propiedad Nombre.</param>
+</member><member name="P:DATOS.Provincia.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Provincia.Nombre">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Provincia.Sitio">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Provincia">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Region.CreateRegion(System.Int32)">
+	<summary>
+ Crear un nuevo objeto Region.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+</member><member name="P:DATOS.Region.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Region.nombre_region">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Region">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Sitio.CreateSitio(System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Decimal)">
+	<summary>
+ Crear un nuevo objeto Sitio.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="sito">Valor inicial de la propiedad Sito.</param>
+	<param name="operadoraId">Valor inicial de la propiedad OperadoraId.</param>
+	<param name="id_Paquete_Permiso">Valor inicial de la propiedad Id_Paquete_Permiso.</param>
+	<param name="id_Alternativa">Valor inicial de la propiedad Id_Alternativa.</param>
+	<param name="id_Collo">Valor inicial de la propiedad Id_Collo.</param>
+	<param name="provincia_Id">Valor inicial de la propiedad Provincia_Id.</param>
+	<param name="cuidad_Id">Valor inicial de la propiedad Cuidad_Id.</param>
+	<param name="tipo_Sitio">Valor inicial de la propiedad Tipo_Sitio.</param>
+	<param name="estructura_De_Soporte_Antenas">Valor inicial de la propiedad Estructura_De_Soporte_Antenas.</param>
+	<param name="altura">Valor inicial de la propiedad Altura.</param>
+</member><member name="P:DATOS.Sitio.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Sito">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.OperadoraId">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Id_Paquete_Permiso">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Id_Alternativa">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Id_Collo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Operadora_Adicional">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Provincia_Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Cuidad_Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Tipo_Sitio">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Estructura_De_Soporte_Antenas">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Altura">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Porcentaje_Construccion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Proveedor_Estructura">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Proveedor_Obra_Civil">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Inicio_Obra_Real">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Entrega_Obra_Real">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Observaciones_De_Construccion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Cuidad">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.CuidadReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Operadora">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.OperadoraReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Provincia">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.ProvinciaReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Tipo_Sitio1">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Sitio.Tipo_Sitio1Reference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Sitio">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.sysdiagrams.Createsysdiagrams(System.String,System.Int32,System.Int32)">
+	<summary>
+ Crear un nuevo objeto sysdiagrams.
+ </summary>
+	<param name="name">Valor inicial de la propiedad name.</param>
+	<param name="principal_id">Valor inicial de la propiedad principal_id.</param>
+	<param name="diagram_id">Valor inicial de la propiedad diagram_id.</param>
+</member><member name="P:DATOS.sysdiagrams.name">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.sysdiagrams.principal_id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.sysdiagrams.diagram_id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.sysdiagrams.version">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.sysdiagrams.definition">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.sysdiagrams">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Tipo_Anillo.CreateTipo_Anillo(System.Int32,System.String)">
+	<summary>
+ Crear un nuevo objeto Tipo_Anillo.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="tipo">Valor inicial de la propiedad Tipo.</param>
+</member><member name="P:DATOS.Tipo_Anillo.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Tipo_Anillo.Tipo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Tipo_Anillo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Tipo_Estructura.CreateTipo_Estructura(System.Int32,System.String)">
+	<summary>
+ Crear un nuevo objeto Tipo_Estructura.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="tipo">Valor inicial de la propiedad Tipo.</param>
+</member><member name="P:DATOS.Tipo_Estructura.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Tipo_Estructura.Tipo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Tipo_Estructura">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Tipo_Instalacion.CreateTipo_Instalacion(System.Int32,System.String)">
+	<summary>
+ Crear un nuevo objeto Tipo_Instalacion.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="tipo">Valor inicial de la propiedad Tipo.</param>
+</member><member name="P:DATOS.Tipo_Instalacion.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Tipo_Instalacion.Tipo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Tipo_Instalacion">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Tipo_Sitio.CreateTipo_Sitio(System.Int32,System.String)">
+	<summary>
+ Crear un nuevo objeto Tipo_Sitio.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="tipo">Valor inicial de la propiedad Tipo.</param>
+</member><member name="P:DATOS.Tipo_Sitio.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Tipo_Sitio.Tipo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Tipo_Sitio.Sitio">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Tipo_Sitio">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Tipo_Suministro_Electrico.CreateTipo_Suministro_Electrico(System.Int32,System.String)">
+	<summary>
+ Crear un nuevo objeto Tipo_Suministro_Electrico.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="tipo">Valor inicial de la propiedad Tipo.</param>
+</member><member name="P:DATOS.Tipo_Suministro_Electrico.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Tipo_Suministro_Electrico.Tipo">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Tipo_Suministro_Electrico.Energia">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Tipo_Suministro_Electrico">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Usuario.CreateUsuario(System.Int32,System.String,System.String,System.String,System.String)">
+	<summary>
+ Crear un nuevo objeto Usuario.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="nombre">Valor inicial de la propiedad Nombre.</param>
+	<param name="nombre_Usuario">Valor inicial de la propiedad Nombre_Usuario.</param>
+	<param name="apellidos">Valor inicial de la propiedad Apellidos.</param>
+	<param name="contrasena">Valor inicial de la propiedad Contrasena.</param>
+</member><member name="P:DATOS.Usuario.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario.Nombre">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario.Nombre_Usuario">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario.Apellidos">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario.Contrasena">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario.Id_Departamento">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario.Departamento">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario.DepartamentoReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario.Usuario_Vista">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Usuario">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Usuario_Vista.CreateUsuario_Vista(System.Int32,System.Int32,System.String,System.Boolean,System.Boolean)">
+	<summary>
+ Crear un nuevo objeto Usuario_Vista.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="id_Vista">Valor inicial de la propiedad Id_Vista.</param>
+	<param name="nombre_Usuario">Valor inicial de la propiedad Nombre_Usuario.</param>
+	<param name="lectura">Valor inicial de la propiedad Lectura.</param>
+	<param name="escritura">Valor inicial de la propiedad Escritura.</param>
+</member><member name="P:DATOS.Usuario_Vista.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario_Vista.Id_Vista">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario_Vista.Nombre_Usuario">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario_Vista.Lectura">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario_Vista.Escritura">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario_Vista.Usuario">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario_Vista.UsuarioReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario_Vista.Vistas">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Usuario_Vista.VistasReference">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Usuario_Vista">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="M:DATOS.Vistas.CreateVistas(System.Int32,System.String)">
+	<summary>
+ Crear un nuevo objeto Vistas.
+ </summary>
+	<param name="id">Valor inicial de la propiedad Id.</param>
+	<param name="vista">Valor inicial de la propiedad Vista.</param>
+</member><member name="P:DATOS.Vistas.Id">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Vistas.Vista">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="P:DATOS.Vistas.Usuario_Vista">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member><member name="T:DATOS.Vistas">
+	<summary>
+ No hay documentación de metadatos disponible.
+ </summary>
+</member>
+</members>
+</doc>
