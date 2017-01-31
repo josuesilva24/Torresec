@@ -206,3 +206,4 @@ E:\Proyectos\Respaldo\Ecuador Base de Datos_\Aplicacion\bin\Debug\Aplicacion.exe
 E:\Proyectos\Respaldo\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.exe
 E:\Proyectos\Respaldo\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.xml
 E:\Proyectos\Respaldo\Ecuador Base de Datos_\Aplicacion\obj\x86\Debug\Aplicacion.pdb
+E:\Proyectos\Torresec\Aplicacion\bin\Debug\Aplicacion.exe.config

@@ -209,6 +209,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BussinesLogic\BussinesLogic.csproj">
+      <Project>{D7EF2AF8-6657-42AB-A09E-C83E4D26A93A}</Project>
+      <Name>BussinesLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DATOS\DATOS.vbproj">
+      <Project>{C0D4EB47-A7DF-4D42-AA4F-BBFF484589FC}</Project>
+      <Name>DATOS</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entidades\Entidades.vbproj">
       <Project>{02A85494-F6A7-41DF-92F3-4402EA263284}</Project>
       <Name>Entidades</Name>

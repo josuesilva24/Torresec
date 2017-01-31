@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using Entity;
+using DATOS;
 
 namespace DAL
 {
@@ -7,7 +7,7 @@ namespace DAL
     {
         public IQueryable<Energia> GetAllAnillos()
         {
-            return DataContext.Energias;
+            return DataContext.Energia;
         }
     }
 }

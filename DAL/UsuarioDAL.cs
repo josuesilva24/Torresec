@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using Entity;
+using DATOS;
 
 namespace DAL
 {
@@ -8,7 +8,7 @@ namespace DAL
     {
         private IQueryable<Usuario> GetAllUsuario()
         {
-            return DataContext.Usuarios;
+            return DataContext.Usuario;
         }
         public IQueryable<Usuario> GetUsuarioByNombreUsuario(string nombreUsuario)
         {

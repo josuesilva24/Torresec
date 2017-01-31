@@ -47,13 +47,18 @@
     <Compile Include="PermisoBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SitioBL.cs" />
+    <Compile Include="Tipo_InstalacionBL.cs" />
     <Compile Include="UsuarioBL.cs" />
     <Compile Include="VistasBL.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\InovatelDal\Entity.csproj">
-      <Project>{696879CE-ECCB-4547-B8A5-41ED6025B4C0}</Project>
-      <Name>Entity</Name>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{489FE090-6701-435D-A54B-73162D0E3D4F}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DATOS\DATOS.vbproj">
+      <Project>{C0D4EB47-A7DF-4D42-AA4F-BBFF484589FC}</Project>
+      <Name>DATOS</Name>
     </ProjectReference>
     <ProjectReference Include="..\StaticSource\MapSource.csproj">
       <Project>{0B39AA5C-732B-4307-8088-C6D3687155C9}</Project>

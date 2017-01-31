@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using DAL;
-using Entity;
+using DATOS;
+
 
 namespace BussinesLogic
 {
@@ -14,6 +15,11 @@ namespace BussinesLogic
         public List<Alternativa> GetAllAlternativas()
         {
             return AlternativaLazy.GetAllAlternativas().ToList();
+        }
+
+        public bool InsertAlternativa(Alternativa alternativa)
+        {
+           return AlternativaLazy.InsertAlternativa(alternativa);
         }
     }
 }

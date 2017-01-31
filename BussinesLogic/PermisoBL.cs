@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using DAL;
-using Entity;
+using DATOS;
 
 
 namespace BussinesLogic

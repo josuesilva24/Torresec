@@ -1,5 +1,6 @@
 ﻿using System.Linq;
-using Entity;
+using DATOS;
+
 
 namespace DAL
 {
@@ -7,7 +8,7 @@ namespace DAL
     {
         public IQueryable<Operadora> GetAllOperadoras()
         {
-            return DataContext.Operadoras;
+            return DataContext.Operadora;
         }
     }
 }

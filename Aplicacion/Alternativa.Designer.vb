@@ -1278,6 +1278,7 @@ Partial Class Alternativa
         'cmbTipDEstru
         '
         Me.cmbTipDEstru.FormattingEnabled = True
+        Me.cmbTipDEstru.Items.AddRange(New Object() {"Tipo Estructura 1", "Tipo Estructura 2", "Tipo Estructura 3", "Tipo Estructura 4"})
         Me.cmbTipDEstru.Location = New System.Drawing.Point(11, 64)
         Me.cmbTipDEstru.Name = "cmbTipDEstru"
         Me.cmbTipDEstru.Size = New System.Drawing.Size(173, 21)
@@ -1833,7 +1834,7 @@ Partial Class Alternativa
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(1097, 812)
+        Me.ClientSize = New System.Drawing.Size(1097, 741)
         Me.Controls.Add(Me.DateTimePicker4)
         Me.Controls.Add(Me.Label81)
         Me.Controls.Add(Me.TextBox5)

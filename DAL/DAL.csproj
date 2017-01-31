@@ -48,13 +48,14 @@
     <Compile Include="PermisoDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SitioDAL.cs" />
+    <Compile Include="Tipo_InstalacionDAL.cs" />
     <Compile Include="UsuarioDAL.cs" />
     <Compile Include="VistasDAL.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\InovatelDal\Entity.csproj">
-      <Project>{696879CE-ECCB-4547-B8A5-41ED6025B4C0}</Project>
-      <Name>Entity</Name>
+    <ProjectReference Include="..\DATOS\DATOS.vbproj">
+      <Project>{C0D4EB47-A7DF-4D42-AA4F-BBFF484589FC}</Project>
+      <Name>DATOS</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Entity;
+using DATOS;
 
 namespace DAL
 {
     public class VistasDAL:DataAccessLogicBase
     {
-        public IQueryable<Vista> GetAllVista()
+        public IQueryable<Vistas> GetAllVista()
         {
             return DataContext.Vistas;
         }
@@ -14,7 +14,7 @@ namespace DAL
         {
             return DataContext.Usuario_Vista;
         }
-        public IQueryable<Vista> GetAllVistaById(int id)
+        public IQueryable<Vistas> GetAllVistaById(int id)
         {
             return GetAllVista().Where(x => x.Id.Equals(id));
         }
